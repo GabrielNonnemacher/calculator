@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --white: #F9F9F9;
+    --green: #9ACD07;
+    --grey-001: #595959;
+    --grey-002: #383838;
+    --orange: #FF8E4E;
+    --font: 'DigitalFont'
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'DigitalFont';
+    src: url('../src/assets/fonts/TypoDigitDemo-VG9lV.ttf') format('truetype');
+}

@@ -1,0 +1,16 @@
+<section class="body-calculator">
+    <div class="container-body">
+        <div class="container-display">
+            <app-dysplay-calculator [response]="systemFunction">
+            </app-dysplay-calculator>
+        </div>
+
+        <div class="container-operators">
+            <app-button-item *ngFor="let item of itemsButtonsCalculator"
+                             [item]="item.symbol"
+                             [typeButton]="item.type"
+                             (value)="addFunction($event)">
+            </app-button-item>
+        </div>
+    </div>
+</section>
