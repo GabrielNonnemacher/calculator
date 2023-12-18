@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { ItemsButtonsCalculator } from 'src/app/common/constants/itemsButtonsCalculator.constant';
 
 @Component({
@@ -7,30 +7,29 @@ import { ItemsButtonsCalculator } from 'src/app/common/constants/itemsButtonsCal
   styleUrls: ['./body-calculator.component.css']
 })
 export class BodyCalculatorComponent {
-  systemFunction: string = "";
   itemsButtonsCalculator = ItemsButtonsCalculator;
+  systemFunction = signal("")
 
   public addFunction(param: string): void {
     if (param === 'CE') {
-      this.systemFunction = "";
-      console.log(this.systemFunction);
+      this.clearDisplay();
     } else if (param === '=') {
-      this.systemFunction = `${this.calcularExpressao(this.systemFunction)}`.replaceAll('.', ',');
-      console.log(this.systemFunction);
-    } else if(param.includes('E')) {
-      this.systemFunction = "";
-      console.log("sdbfdfffffffffff");
-      
-    }else {
-      this.systemFunction = this.systemFunction.concat(param);
-      console.log(this.systemFunction);
+      this.systemFunction.set(`${this.calcularExpressao(this.systemFunction())}`.replaceAll('.', ','));
+    } else {
+      this.systemFunction.update((elem) => elem.concat(param));
     }
   }
 
-  private calcularExpressao(expressao: string): any {
+  private clearDisplay(): void {
+    this.systemFunction.set("");
+  }
+
+  private calcularExpressao(expressao: string): string {
     try {
-      return Function('"use strict";return (' + expressao.replaceAll('×', '*').replaceAll('÷', '/') + ')')();  
+      return Function('"use strict";return (' + expressao.replaceAll('×', '*').replaceAll('÷', '/') + ')')();
     } catch (error) {
+      setTimeout(() => this.clearDisplay(), 1000);
       return 'Error';
-    }}
+    }
+  }
 }
