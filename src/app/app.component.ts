@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
+import { TypeButtonMode } from './common/enum/typeButtonMode.enum';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'calculator';
+  typeMode = signal(TypeButtonMode);
+  mode = signal(TypeButtonMode.Light);
+
+  public onChangeMode(): void {
+    this.mode.set(
+      this.mode() === TypeButtonMode.Light
+        ? TypeButtonMode.Dark
+        : TypeButtonMode.Light
+    );
+  }
 }

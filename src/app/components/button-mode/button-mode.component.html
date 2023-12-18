@@ -1,0 +1,15 @@
+<div class="button-mode">
+    <button class="conteiner-button-mode"
+            [ngClass]="{light: typeMode.Light === mode, dark: typeMode.Dark === mode}"
+            (click)="onChange()">
+        <img *ngIf="typeMode.Dark === mode"
+             class="sun-icon"
+             src="https://cdn.icon-icons.com/icons2/1303/PNG/512/sun_85879.png"
+             alt="ícone de sol">
+
+        <img *ngIf="typeMode.Light === mode"
+             class="moon-icon"
+             src="https://cdn.icon-icons.com/icons2/494/PNG/512/moon_icon-icons.com_48261.png"
+             alt="ícone de sol">
+    </button>
+</div>
