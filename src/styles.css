@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 :root {
     --white: #F9F9F9;
     --green: #9ACD07;
+    --grey-000: #afafaf;
     --grey-001: #595959;
     --grey-002: #383838;
+    --grey-003: #4b4b4b;
     --orange: #FF8E4E;
     --dark: rgb(36, 17, 52);
     --light: rgb(159, 78, 235);
-    --font: 'DigitalFont'
+    --font: 'DigitalFont';
+    --font-2: 'Poppins', sans-serif;
 }
 
 * {

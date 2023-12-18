@@ -7,6 +7,7 @@ import { TypeButtonMode } from './common/enum/typeButtonMode.enum';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title = signal("Calculator");
   typeMode = signal(TypeButtonMode);
   mode = signal(TypeButtonMode.Light);
 

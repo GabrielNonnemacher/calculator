@@ -8,6 +8,10 @@
     box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.25);
 }
 
+.button-item:focus {
+    animation: anim 0.8s ease;
+}
+
 .numbers {
     color: var(--white);
 }
@@ -18,4 +22,18 @@
 
 .delete {
     color: var(--orange);
+}
+
+@keyframes anim {
+    0% {
+        background: var(--grey-002);
+    }
+
+    50% {
+        background: var(--grey-003);
+    }
+
+    100% {
+        background: var(--grey-002);
+    }
 }

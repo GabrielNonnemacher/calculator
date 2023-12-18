@@ -1,5 +1,9 @@
 <section class="app"
          [ngClass]="{light: typeMode().Light === mode(), dark: typeMode().Dark === mode()}">
+  <div class="title">
+    {{title()}}
+  </div>
+
   <div class="container-button-mode">
     <app-button-mode [mode]="mode()"
                      (onClick)="onChangeMode()">
@@ -7,4 +11,8 @@
   </div>
 
   <app-body-calculator></app-body-calculator>
+
+  <div class="author-name">
+    Design by <span>Gabriel Nonnemacher</span>
+  </div>
 </section>
