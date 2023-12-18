@@ -1,3 +1,10 @@
-<section class="app">
+<section class="app"
+         [ngClass]="{light: typeMode().Light === mode(), dark: typeMode().Dark === mode()}">
+  <div class="container-button-mode">
+    <app-button-mode [mode]="mode()"
+                     (onClick)="onChangeMode()">
+    </app-button-mode>
+  </div>
+
   <app-body-calculator></app-body-calculator>
 </section>
