@@ -19,3 +19,28 @@
     right: 20px;
     top: 20px;
 }
+
+.author-name {
+    font-family: var(--font-2);
+    color: var(--white);
+    font-size: 14px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 16px;
+}
+
+.author-name > span {
+    font-weight: 600;
+}
+
+.title {
+    font-family: var(--font-2);
+    color: var(--white);
+    font-size: 28px;
+    position: absolute;
+    width: 100%;
+    top: 16px;
+    text-align: center;
+    font-weight: 400;
+}
