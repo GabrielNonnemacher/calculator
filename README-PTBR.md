@@ -32,7 +32,7 @@ O projeto da calculadora visa a solução de cálculos matméticos simples. Aind
 
 ## 📄 Licença
 
-MIT License - veja o arquivo [LICENSE.md](https://github.com/GabrielNonnemacher/calculator/blob/master/LICENSE.md) para detalhes.
+MIT License - veja o arquivo [LICENSE](https://github.com/GabrielNonnemacher/calculator/blob/master/LICENSE) para detalhes.
 
 <br/>
 
