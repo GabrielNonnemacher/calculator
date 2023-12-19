@@ -32,7 +32,7 @@ The calculator design aims to solve simple mathematical calculations. Furthermor
 
 ## 📄 License
 
-MIT License - see the file [LICENSE.md](https://github.com/GabrielNonnemacher/calculator/blob/master/LICENSE.md) for details.
+MIT License - see the file [LICENSE](https://github.com/GabrielNonnemacher/calculator/blob/master/LICENSE) for details.
 
 <br/>
 
