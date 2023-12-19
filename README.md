@@ -1,52 +1,52 @@
-![Calculator](https://github.com/GabrielNonnemacher/calculator/assets/87139289/ddbe52eb-3a3d-4d0c-a2af-d8b041501046)
+![Calculator (1)](https://github.com/GabrielNonnemacher/calculator/assets/87139289/e71fdcbe-a311-45aa-9973-3f3b977fd622)
 
-O projeto da calculadora visa a solução de cálculos matméticos simples. Ainda, o projeto por intenção aprimorar os estudos de lógica de programação e Angular, utilizando-se bastante do `signal`.
-
-<br/>
-
-## ⚙️ Funcionalidades
-
-* Selecionar entre as duas Opções (* Modo Light ou Modo Dark *); 
-  * **Modo Light** : Ao selecionar o Modo Light, o usuário tem um modo de vizualização com cores mais claras no plano de fundo.
-  * **Modo Dark** : Ao selecionar o Modo Dark, o usuário tem um modo de vizualização com cores mais escuras no plano de fundo.
-* Selecionar os botões do dígitos (* de 0 a 9 *); 
-  * **Número** : Ao clicar no botão do número, o mesmo aparece no dysplay da calculadora.
-* Selecionar o botão do caracter (* = *); 
-  * **=** : Ao clicar nesse botão, no dysplay da calculadora é mostrado o resultado da equação.
-* Selecionar o botão do caracter (* CE *); 
-  * **CE** : Ao clicar nesse botão é apagado tudo que está no dysplay da calculadora.
+The calculator design aims to solve simple mathematical calculations. Furthermore, the project intends to improve the studies of programming logic and Angular, using a lot of the `signal`.
 
 <br/>
 
-## 🛠️ Tecnologias e Ferramentas
+## ⚙️ Functionalities
 
-* Angular - versão '^16.1.0'.
+* Select between the two options (* Light Mode or Light Mode *); 
+  * **Light Mode ** : When selecting Light Mode, the user has a viewing mode with lighter colors in the background.
+  * **Dark Mode ** : When selecting Dark Mode, the user has a viewing mode with darker colors in the background.
+* Select digit buttons (* from 0 to 9 *); 
+  * **Number** : When you click on the number button, it appears on the calculator display.
+* Select character button (* = *); 
+  * **=** : When you click this button, the result of the equation is shown on the calculator display.
+* Select character button (* CE *); 
+  * **CE** : When you click this button, everything on the calculator display is erased.
+
+<br/>
+
+## 🛠️ Technologies and Tools
+
+* Angular - version '^16.1.0'.
   
 <br/>
 
-## ✒️ Autores
+## ✒️ Authors
 
 * **Gabriel José Nonnemacher** - [GabrielNonnemacher](https://github.com/GabrielNonnemacher)
 
 <br/>
 
-## 📄 Licença
+## 📄 License
 
-MIT License - veja o arquivo [LICENSE.md](https://github.com/GabrielNonnemacher/calculator/blob/master/LICENSE.md) para detalhes.
+MIT License - see the file [LICENSE.md](https://github.com/GabrielNonnemacher/calculator/blob/master/LICENSE.md) for details.
 
 <br/>
 
-## <img height="20px" src="https://cdn-icons-png.flaticon.com/512/352/352163.png"> Inicialização
+## <img height="20px" src="https://cdn-icons-png.flaticon.com/512/352/352163.png"> Initialization
 
-Primeiramente copie o projeto para uma pasta desejada
+First copy the project to a desired folder
 ```
 git clone https://github.com/GabrielNonnemacher/calculator.git
 ```
-Instale as dependências necessárias
+Install necessary dependencies
 ```
 npm install
 ```
-Rode o projeto
+Run the project
 ```
 ng serve
 ```
@@ -54,8 +54,8 @@ ng serve
 <br/>
 
 ## 👀 Preview
-### Tela em Modo Light
+### Screen in Light Mode
 ![modoLight](https://github.com/GabrielNonnemacher/calculator/assets/87139289/62c56f99-d1de-4d86-ab8e-e6231d7cbad2)
 
-### Tela em Modo Dark
+### Screen in Dark Mode
 ![modoDark](https://github.com/GabrielNonnemacher/calculator/assets/87139289/78d85d84-a259-45e9-b925-b46ea72800ba)
