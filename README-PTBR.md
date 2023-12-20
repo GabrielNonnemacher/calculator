@@ -50,6 +50,10 @@ Rode o projeto
 ```
 ng serve
 ```
+Para construir o projeto, execute o comando. Os artefatos de construção serão armazenados no diretório `dist/`.
+```
+ng build
+```
 
 <br/>
 
