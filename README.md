@@ -50,7 +50,7 @@ Run the project
 ```
 ng serve
 ```
-To build the project, run the command. The build artifacts will be stored in the dist/ directory
+To build the project, run the command. The build artifacts will be stored in the `dist/` directory
 ```
 ng build
 ```
