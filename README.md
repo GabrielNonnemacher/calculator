@@ -57,6 +57,10 @@ ng build
 
 <br/>
 
+## ➡️ Link
+<a href="https://calculator-ha9aul4oi-gabriel-nonnemachers-projects.vercel.app" target="_blank">Calculator<a/>
+<br/>
+
 ## 👀 Preview
 ### Screen in Light Mode
 ![modoLight](https://github.com/GabrielNonnemacher/calculator/assets/87139289/62c56f99-d1de-4d86-ab8e-e6231d7cbad2)
