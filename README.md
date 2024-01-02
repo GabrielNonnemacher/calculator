@@ -58,7 +58,7 @@ ng build
 <br/>
 
 ## ➡️ Link
-<a href="https://calculator-ha9aul4oi-gabriel-nonnemachers-projects.vercel.app" target="_blank" rel="noopener noreferrer">Link Calculator<a/>
+<a href="https://gabriel-nonnemacher-calculator.vercel.app" target="_blank" rel="noopener noreferrer">Link Calculator<a/>
 <br/>
 
 ## 👀 Preview
