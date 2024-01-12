@@ -1,6 +1,6 @@
 ![Calculator](https://github.com/GabrielNonnemacher/calculator/assets/87139289/4fea36f0-ae86-4de1-8785-aaec35f1ea57)
 
-O projeto da calculadora visa a solução de cálculos matméticos simples. Ainda, o projeto por intenção aprimorar os estudos de lógica de programação e Angular, utilizando-se bastante do `signal`.
+O projeto da calculadora visa a solução de cálculos matemáticos simples. Ainda, o projeto por intenção aprimorar os estudos de lógica de programação e Angular, utilizando-se bastante do `signal`.
 
 <br/>
 
