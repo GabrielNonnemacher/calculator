@@ -7,8 +7,8 @@ The calculator design aims to solve simple mathematical calculations. Furthermor
 ## ⚙️ Functionalities
 
 * Select between the two options (* Light Mode or Light Mode *); 
-  * **Light Mode ** : When selecting Light Mode, the user has a viewing mode with lighter colors in the background.
-  * **Dark Mode ** : When selecting Dark Mode, the user has a viewing mode with darker colors in the background.
+  * **Light Mode** : When selecting Light Mode, the user has a viewing mode with lighter colors in the background.
+  * **Dark Mode** : When selecting Dark Mode, the user has a viewing mode with darker colors in the background.
 * Select digit buttons (* from 0 to 9 *); 
   * **Number** : When you click on the number button, it appears on the calculator display.
 * Select character button (* = *); 
