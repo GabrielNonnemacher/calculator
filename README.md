@@ -6,7 +6,7 @@ The calculator design aims to solve simple mathematical calculations. Furthermor
 
 ## ⚙️ Functionalities
 
-* Select between the two options (* Light Mode or Light Mode *); 
+* Select between the two options (* Light Mode or Dark Mode *); 
   * **Light Mode** : When selecting Light Mode, the user has a viewing mode with lighter colors in the background.
   * **Dark Mode** : When selecting Dark Mode, the user has a viewing mode with darker colors in the background.
 * Select digit buttons (* from 0 to 9 *); 
@@ -20,7 +20,7 @@ The calculator design aims to solve simple mathematical calculations. Furthermor
 
 ## 🛠️ Technologies and Tools
 
-* Angular - version '^16.1.0'.
+* Angular - v16.1 - [Documentation](https://angular.io)
   
 <br/>
 
